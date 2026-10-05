@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "eu.machinewitness/archive",
+  "title": "MachineWitness",
+  "description": "EU archive of the machine-readable web: check if a domain is observed, order a time-stamped record.",
+  "version": "1.2.0",
+  "websiteUrl": "https://machinewitness.eu/api",
+  "repository": {
+    "url": "https://github.com/martinschenk/machinewitness-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://machinewitness.eu/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://machinewitness.eu/mcp"
+    }
+  ]
+}
