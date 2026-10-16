@@ -42,6 +42,13 @@ address delivered at a given time; it is not an assessment and not legal advice.
   nothing itself. After payment, both witnesses fetch and picture each address,
   each capture gets its own qualified electronic time-stamp, and the record is
   delivered by e-mail. *write*
+- `order_extract`: one to twenty observed domains. Returns a payment link for an
+  evidence extract, everything the archive recorded on each domain as one
+  verifiable document; a domain never observed is refused by name before
+  payment. Charges nothing itself. *write*
+- `order_observation`: one to 500 domains, yearly or monthly. Returns a payment
+  link for daily observation; a domain already observed daily in the core is
+  refused by name. Charges nothing itself. *write*
 
 Six languages for payment page and e-mails: `en`, `de`, `es`, `fr`, `it`, `pl`.
 
