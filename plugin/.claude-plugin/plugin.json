@@ -2,9 +2,24 @@
   "name": "machinewitness",
   "version": "1.3.0",
   "description": "Ask the EU evidentiary archive of the machine-readable web whether a domain is on the record, and order time-stamped records of public web addresses.",
-  "author": { "name": "MachineWitness", "email": "contact@machinewitness.eu", "url": "https://machinewitness.eu" },
+  "author": {
+    "name": "MachineWitness",
+    "email": "contact@machinewitness.eu",
+    "url": "https://machinewitness.eu"
+  },
   "homepage": "https://machinewitness.eu",
   "repository": "https://github.com/martinschenk/machinewitness-mcp",
   "license": "MIT",
-  "keywords": ["evidence", "archive", "robots.txt", "ai opt-out", "tdm", "eidas", "timestamp", "legal"]
+  "keywords": [
+    "evidence",
+    "archive",
+    "robots.txt",
+    "ai opt-out",
+    "tdm",
+    "eidas",
+    "timestamp",
+    "legal"
+  ],
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://machinewitness.eu/privacy"
 }
