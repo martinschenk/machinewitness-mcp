@@ -87,6 +87,7 @@ no authentication. No account, no API key.
   "no authentication".
 - **Perplexity, Grok, Cursor, VS Code, Gemini CLI and other MCP clients:** add a
   remote (Streamable HTTP) server with the address above.
+
 Full reference, including the plain HTTP API: [machinewitness.eu/api](https://machinewitness.eu/api).
 Fees: [machinewitness.eu/services](https://machinewitness.eu/services).
 
