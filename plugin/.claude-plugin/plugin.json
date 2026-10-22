@@ -21,5 +21,9 @@
     "legal"
   ],
   "icon": ".claude-plugin/icon.png",
-  "privacyPolicyUrl": "https://machinewitness.eu/privacy"
+  "privacyPolicyUrl": "https://machinewitness.eu/privacy",
+  "displayName": "MachineWitness",
+  "documentationUrl": "https://machinewitness.eu/api",
+  "termsOfServiceUrl": "https://machinewitness.eu/terms",
+  "supportUrl": "https://machinewitness.eu/imprint"
 }
