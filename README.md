@@ -66,6 +66,27 @@ Six languages for payment page and e-mails: `en`, `de`, `es`, `fr`, `it`, `pl`.
 ```
 
 See [llms-install.md](llms-install.md) for a one-call check that it works.
+
+## Connect in your assistant
+
+Every client below takes the same address, `https://machinewitness.eu/mcp`, with
+no authentication. No account, no API key.
+
+- **Claude Code, as a plugin** (server plus a short skill that says when to use it):
+
+  ```
+  /plugin install machinewitness --marketplace martinschenk/machinewitness-mcp
+  ```
+
+- **Claude Code, server only:**
+  `claude mcp add --transport http machinewitness https://machinewitness.eu/mcp`
+- **Claude (web and desktop):** add a custom connector with the address above.
+- **ChatGPT:** in developer mode, create a connector with the address above,
+  authentication "none".
+- **Le Chat (Mistral):** add a custom MCP connector with the address above,
+  "no authentication".
+- **Perplexity, Grok, Cursor, VS Code, Gemini CLI and other MCP clients:** add a
+  remote (Streamable HTTP) server with the address above.
 Full reference, including the plain HTTP API: [machinewitness.eu/api](https://machinewitness.eu/api).
 Fees: [machinewitness.eu/services](https://machinewitness.eu/services).
 

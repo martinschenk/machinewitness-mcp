@@ -1,0 +1,13 @@
+{
+  "name": "machinewitness",
+  "owner": { "name": "MachineWitness", "email": "contact@machinewitness.eu" },
+  "plugins": [
+    {
+      "name": "machinewitness",
+      "source": "./plugin",
+      "description": "Ask the EU evidentiary archive of the machine-readable web whether a domain is on the record, and order time-stamped records of public web addresses.",
+      "category": "legal",
+      "homepage": "https://machinewitness.eu"
+    }
+  ]
+}

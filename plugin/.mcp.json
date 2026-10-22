@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "machinewitness": {
+      "type": "http",
+      "url": "https://machinewitness.eu/mcp"
+    }
+  }
+}
